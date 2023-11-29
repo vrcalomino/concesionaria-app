@@ -151,6 +151,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
        this.dispose();
+       System.exit(0);
     }//GEN-LAST:event_exitActionPerformed
 
     private void goToCargarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goToCargarActionPerformed
