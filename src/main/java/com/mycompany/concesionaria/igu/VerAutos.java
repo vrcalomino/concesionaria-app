@@ -173,7 +173,11 @@ public class VerAutos extends javax.swing.JFrame {
                 pantalla.setVisible(true);
                 pantalla.setLocationRelativeTo(null);
                 this.dispose();
+            } else {
+                mostrarMensaje("No hay fila seleccionada", "Error Edicion", "error");
             }
+        } else {
+            mostrarMensaje("La tabla esta vacia", "Error Edicion", "error");
         }
     }//GEN-LAST:event_btnEditarActionPerformed
 
